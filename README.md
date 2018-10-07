@@ -21,3 +21,8 @@ From the project's root directory:
 ```
 $ pytest
 ```
+Check code coverage:
+```
+$ coverage run --source flask_pytest_intro -m pytest
+$ coverage report -m
+```
